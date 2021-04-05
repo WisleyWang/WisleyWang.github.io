@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-04-05T14:01:18.338Z</updated>
+  <updated>2021-04-05T15:02:06.846Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2021/04/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <id>http://example.com/2021/04/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
     <published>2021-04-05T13:51:15.000Z</published>
-    <updated>2021-04-05T14:01:18.338Z</updated>
+    <updated>2021-04-05T15:02:06.846Z</updated>
     
     <content type="html"><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>&emsp;&emsp; 相信大多数读者在了解GCN（Graph Convolutional Networks）之前，对CNN（Convolutional Neural Network）都是非常熟悉的，我们知道，在连续信号中的卷积是表征函数f与g经过翻转和平移的重叠部分函数值乘积对重叠长度的积分,如下公式（1）。<br>$$\quad\qquad\int_{-\infty}^{+\infty} f(\tau)g(x-\tau)d\tau   \qquad\qquad\qquad (1)<br>$$</p><h2 id="ad-ad"><a href="#ad-ad" class="headerlink" title="ad ad"></a>ad ad</h2><p>asdads sdad<br>asd</p>]]></content>
     
