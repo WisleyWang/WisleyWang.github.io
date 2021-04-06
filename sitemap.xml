@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://github.com/WisleyWang/2021/04/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://wisleywang.github.io/2021/04/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</loc>
     
     <lastmod>2021-04-06</lastmod>
     
   </url>
   
   <url>
-    <loc>https://github.com/WisleyWang/2021/04/05/hello-world/</loc>
+    <loc>https://wisleywang.github.io/2021/04/05/hello-world/</loc>
     
     <lastmod>2021-04-06</lastmod>
     
   </url>
   
   <url>
-    <loc>https://github.com/WisleyWang/gallery/index.html</loc>
+    <loc>https://wisleywang.github.io/gallery/index.html</loc>
     
     <lastmod>2021-04-06</lastmod>
     
   </url>
   
   <url>
-    <loc>https://github.com/WisleyWang/about/index.html</loc>
+    <loc>https://wisleywang.github.io/about/index.html</loc>
     
     <lastmod>2021-04-06</lastmod>
     
   </url>
   
   <url>
-    <loc>https://github.com/WisleyWang/tags/index.html</loc>
+    <loc>https://wisleywang.github.io/tags/index.html</loc>
     
     <lastmod>2021-04-06</lastmod>
     
   </url>
   
   <url>
-    <loc>https://github.com/WisleyWang/categories/index.html</loc>
+    <loc>https://wisleywang.github.io/categories/index.html</loc>
     
     <lastmod>2021-04-06</lastmod>
     
@@ -45,7 +45,7 @@
   
 
   <url>
-    <loc>https://github.com/WisleyWang</loc>
+    <loc>https://wisleywang.github.io/</loc>
     <lastmod>2021-04-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -53,14 +53,14 @@
 
   
   <url>
-    <loc>https://github.com/WisleyWang/tags/%E8%AF%B4%E6%98%8E-sdad/</loc>
+    <loc>https://wisleywang.github.io/tags/%E8%AF%B4%E6%98%8E-sdad/</loc>
     <lastmod>2021-04-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://github.com/WisleyWang/tags/other-tag-%E7%9C%8B%E7%9C%8B%E6%95%88%E6%9E%9C/</loc>
+    <loc>https://wisleywang.github.io/tags/other-tag-%E7%9C%8B%E7%9C%8B%E6%95%88%E6%9E%9C/</loc>
     <lastmod>2021-04-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -69,7 +69,7 @@
 
   
   <url>
-    <loc>https://github.com/WisleyWang/categories/GCN/</loc>
+    <loc>https://wisleywang.github.io/categories/GCN/</loc>
     <lastmod>2021-04-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
