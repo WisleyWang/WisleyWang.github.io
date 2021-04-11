@@ -43,7 +43,7 @@
     }
 	
     const CONFIG_LEACLOUD_COUNT = {
-      enable: false,
+      enable: true,
 	  appId: '47JgEE6f0jtzOL6p7ungsz9F-gzGzoHsz',
 	  appKey: 'SPxQd9af1LbfYu9r392GkAax',
 	  serverURLs: 'http' || ' '
@@ -108,6 +108,10 @@
 	</p>
 
 	
+	
+		<span id="star-button" rel="unlike">
+			<i class="icon-heart"></i>
+		</span>
 	
 
 	<!-- Nav trigger for navigation-H-->
@@ -281,7 +285,25 @@
 			
 			
 
+	
+    <span class="leancloud_visitors" id="/2021/04/05/hello-world/_visitors" data-url="/2021/04/05/hello-world/" data-title="Hello World">
+       	<i class="icon-eye"></i>
+       	热度
+        
+            <i class="leancloud_visitors_count" id="leancloud_visitors_count">1</i>
+                   
+    </span>
+    
 
+
+
+	
+    <span class="leancloud_likes" id="/2021/04/05/hello-world/_likes" data-url="/2021/04/05/hello-world/" data-title="Hello World" rel="unlike">
+        <i class="icon-heart"></i>
+        喜欢
+        <i class="leancloud_likes_count" id="leancloud_likes_count">0</i>
+    </span>
+	
 
 		</div>
 
@@ -424,7 +446,7 @@
 			emoticon_list: ["吐.png", "期待.png", "高兴.png", "吐血倒地.png", "哭泣.png", "欢呼.png"],
 			app_id: "47JgEE6f0jtzOL6p7ungsz9F-gzGzoHsz", //获取APP ID
 			app_key: "SPxQd9af1LbfYu9r392GkAax", //获取APP KEY
-			placeholder: "来评论", //评论框占位提示文字        			
+			placeholder: "这里写下你的留言，我都能看到哦(●&#39;◡&#39;●)", //评论框占位提示文字        			
 		});
 	}
 </script>		 -->
@@ -448,7 +470,7 @@
 			emoticon_list: ["吐.png", "期待.png", "高兴.png", "吐血倒地.png", "哭泣.png", "欢呼.png"],
 			app_id: "47JgEE6f0jtzOL6p7ungsz9F-gzGzoHsz", //获取APP ID
 			app_key: "SPxQd9af1LbfYu9r392GkAax", //获取APP KEY
-			placeholder: "来评论", //评论框占位提示文字        			
+			placeholder: "这里写下你的留言，我都能看到哦(●&#39;◡&#39;●)", //评论框占位提示文字        			
 		});
 	}
 </script>		
@@ -676,17 +698,6 @@
 	<!-- busuanzi -->
 	<!-- busuanzi -->
 
-		
-	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-	
-
-		<span id="busuanzi_container_page_pv">
-	  		本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-		</span>
-
-	
-
-
 
 
 			<a href="javascript:zh_tran('s');" class="zh_click" id="zh_click_s">简体</a> 
@@ -763,6 +774,10 @@
 -->
 
 
+  
+<script src="/js/leancloud-count.js"></script>
+
+
 	
 
   
@@ -790,6 +805,21 @@
 		<div class="local-search-footer">
 			<div class="topN-post">				
 				
+
+   
+	<div id="topN">
+		<div class="topN-title" data-title= "热门文章"></div> 
+	</div>
+	
+    <script>
+        var limitCount = 10;
+        if( $('#topN').length ){
+            setTimeout(function() {
+                topNPost(limitCount);
+			}, 3000);
+        }
+    </script>
+   
 								
 			</div>
 		</div>
