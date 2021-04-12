@@ -1043,9 +1043,9 @@ footer {
   font-family: "Times New Roman", Times, serif;
   font-size: 1rem;
   line-height: 2;
-  color: #555;
+  color: #aaa;
   background-color: #222;
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
 }
 footer .copyright {
@@ -1324,7 +1324,7 @@ header .h-footer a {
   text-align: center;
 }
 .category .category-list li {
-  font-size: 1rem;
+  font-size: 1.2rem;
   display: inline-flex;
   padding: 6px;
   margin-right: 10px;
@@ -1370,7 +1370,7 @@ main {
 }
 .layout-cart .post>a {
   position: relative;
-  width: 680px;
+  width: 690px;
   height: 440px;
   display: inline-block;
   overflow: hidden;
@@ -1388,7 +1388,7 @@ main {
 .layout-cart .post-text {
   position: absolute;
   top: 20px;
-  height: 398px;
+  height: 350px;
   width: 498px;
   border: 1px solid #e0e0e0;
   background: #fff;
@@ -1408,36 +1408,37 @@ main {
 }
 .layout-cart .post-text .post-time {
   color: #999;
-  font-size: 12px;
-  margin: 80px 0 0 80px;
+  font-size: 14px;
+  margin: 60px 0 0 60px;
 }
 .layout-cart .post-text .post-title {
 /*font-family: Georgia, Times New Roman, Times, serif;*/
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  font-family: "Source Sans Pro", "Segoe UI";
   font-weight: normal;
   line-height: 1.5;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  margin: 10px 100px 0 80px;
+  margin: 10px 50px 0 60px;
 }
 .layout-cart .post-text .post-title a {
-  color: #222;
+  color: #111;
 }
 .layout-cart .post-text .post-content {
   text-align: justify;
   line-height: 2;
-  color: #555;
+  color: #666;
   word-spacing: 2px;
   letter-spacing: 0px;
   word-break: break-word;
-  margin: 10px 100px 0 80px;
+  margin: 10px 50px 0 60px;
 }
 .layout-cart .post-text .post-meta {
   position: absolute;
-  left: 80px;
+  left: 60px;
   bottom: 60px;
-  font-size: 12px;
+  font-size: 14px;
   color: #999;
 }
 .layout-cart .post-text .post-meta span {
@@ -1520,8 +1521,9 @@ main {
   border: 1px solid transparent;
 }
 #layout-post {
-  font-size: 1rem;
+  font-size: 1.4rem;
   line-height: 2;
+  font-family: "Source Sans Pro", "Segoe UI";
 }
 #layout-post .article-title {
   font-size: 2rem;
@@ -2814,8 +2816,8 @@ blockquote footer cite:before {
 }
 #global-nav li a,
 #global-social li a {
-  font-size: 1rem;
-  color: #555;
+  font-size: 1.3rem;
+  color: #668;
   padding: 0.5rem;
 }
 #global-nav li a:hover,
