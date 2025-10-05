@@ -28,15 +28,19 @@ My research interests include:
 
 ~~~
 {}{img_left}{img/school.png}{alt text}{124}{120}{https://www.uestc.edu.cn/}
-- *University of Electronic Science and Technology of China*
+- *University of Electronic Science and Technology of China (UESTC)*
 Ph.D in Biomedical Engineering, from August 2023 to June 2027.
-- *University of Electronic Science and Technology of China*
+- *University of Electronic Science and Technology of China (UESTC)*
 M.S. in Biomedical Engineering, from August 2018 to June 2021.
+
+{}{img_left}{img/ntulog.jpg}{alt text}{125}{90}{https://www.ntu.edu.sg/}
+- *Nanyang Technological University (NTU)*
+CSC Outstanding Engineers Program (Joint PhD), from May 2025 to May 2026.
 ~~~
 
 ==  Experiences
 
-
+- \[2024-2025\] Visiting students from Nanyang Institute of Technology, from December 2025 to December 2026.
 - \[2023-2024\] Research Intern at Shanghai Digital Innovation Center, from December 2023 to December 2024.
 - \[2021-2023\] Intelligent Algorithm Engineer at Hikvision, from August 2021 to July 2023.
 
@@ -53,7 +57,7 @@ I am very interested in AI algorithm competitions and have many years of competi
 . iFLYTEK AI development competition 2023: Brain PET Image Analysis and Disease Prediction Challenge \[[https://challenge.xfyun.cn/topic/info?type=pet-2023 link]\], 🏆 1st place.
 . iFLYTEK AI development competition 2023: Farmer Identity Recognition Challenge \[[https://challenge.xfyun.cn/topic/info?type=peasant-identity&option=ssgy link]\], 🏆 1st place.
 . AFAC 2023 Tianchi Financial AI Challenge - Pet Age Recognition \[[https://tianchi.aliyun.com/competition/entrance/532092/rankingList link]\], 🥉 5rd place.
-. Mobile Cloud Cup 2023 Computing and Network Computing Power Competition - Industry Track \[[https://ecloud.10086.cn/api/query/developer/user/home.html#match@matchnew?id=6b87490c869b4743930c792def9ff49e link]\], 🏆 1st place.
+. Mobile Cloud Cup 2023 Computing and Network Computing Power Competition - Industry Track \[[https://ecloud.10086.cn/api/query/developer/user/home.html link]\], 🏆 1st place.
 . DiMTAIC 2023 Digital Medical Technology: Colorectal Tumor and Abnormal Lymph Segmentation Algorithm \[[https://www.shdmic.com/dimtaic2023/index.html link]\], 🥉 3rd place.
 . 2024 9th Tencent Game Security Technology Competition - Machine Learning Track \[[https://gslab.qq.com/html/competition/2024/race-final-result.htm link]\], 🥈2nd place.
 . AI4S Cup 2024 -  Wave Speed Reconstruction in Ultrasound CT Imaging \[[https://www.bohrium.com/competitions/2522351329?tab=introduce link]\], 🥉 5rd place.
@@ -80,8 +84,21 @@ Note: * for corresponding author, # for equal contribution.
     X Peng, Y Feng, S Ji, JT Amos, *W Wang*, M Li, S Ai, X Qiu, Y Dong, D Ma \n
     IEEE Transactions on Neural Systems and Rehabilitation Engineering (*TNSRE 2021*, Q2 IF:5.2)
 
+== Patent
+Patents published as the first inventor during the period of serving as an algorithm engineer. \[[https://pss-system.cponline.cnipa.gov.cn/conventionalSearch Patent search link]\]
 
-
+. Multi-Task Learning for Face Recognition Based on Graph Neural Network \n
+    Application Number:​​ CN202111576477.0 \n
+    Publication Number:​​ CN114360007A
+. A Self-Supervised Learning-Based Training Method for Face Recognition Models \n
+    Application Number:​​ CN202111646238.8 \n
+    Publication Number:​​ CN114358249A
+. Dynamic Margin Binary Classification Network Training Method for Face Recognition \net
+    Application Number:​​ CN202210843918.7 \n
+    Publication Number:​​ CN115439707A
+. A Method for Generating Face Adversarial Patches Based on Conditional Diffusion Model
+    Application Number:​​ CN202211742754.5 \n
+    Publication Number:​​ CN116109534A
 
 == Projects
 
