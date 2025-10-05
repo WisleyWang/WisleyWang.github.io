@@ -1,0 +1,95 @@
+# jemdoc: menu{MENU}{index.html}, nofooter  
+== Wenan Wang's  Homepage
+
+~~~
+{}{img_left}{img/wenan.jpg}{alt text}{250}{252}{https://edisonleeeee.github.io/}
+Wenan Wang (王文安 in Chinese) \n
+Ph.D Student \n
+Kaggle Master \n
+
+[https://www.life.uestc.edu.cn/ School of Life Science and Technology] \n
+[https://www.uestc.edu.cn/ University of Electronic Science and Technology of China (UESTC)] \n
+
+
+E-mail: 903953316@qq.com \n
+WeChat: wisley93953316 \n
+\[[https://github.com/WisleyWang GitHub]\] \[[https://www.kaggle.com/wisley1024 Kaggle]\] \[[https://scholar.google.com/citations?user=MYeCoAkAAAAJ&hl=tl&oi=ao Google Scholar]\]  \[[https://ieeexplore.ieee.org/author/37088881386 IEEE]\] \[[https://blog.csdn.net/qq_26593695 CSDN]\]
+~~~
+
+== About me
+I am currently a Ph.D student at [https://www.uestc.edu.cn/ UESTC] and my supervisor is [https://ieeexplore.ieee.org/author/37281040000 Prof. Yifan Chen]. I received the master's degree from UESTC in 2021. After graduating with a master's degree, I worked as an intelligent algorithm engineer in a company for two years. After that, I continued to pursue a doctoral degree in 2023.
+
+My research interests include: 
+- Artificial Intelligence for Science: Electromagnetic inverse problem, wearable sensing, brain-computer interface（BCI）etc.
+- Computer Vision
+- Large Language Models
+
+==  Educations
+
+~~~
+{}{img_left}{img/school.png}{alt text}{124}{120}{https://www.uestc.edu.cn/}
+- *University of Electronic Science and Technology of China*
+Ph.D in Biomedical Engineering, from August 2023 to June 2027.
+- *University of Electronic Science and Technology of China*
+M.S. in Biomedical Engineering, from August 2018 to June 2021.
+~~~
+
+==  Experiences
+
+
+- \[2023-2024\] Research Intern at Shanghai Digital Innovation Center, from December 2023 to December 2024.
+- \[2021-2023\] Intelligent Algorithm Engineer at Hikvision, from August 2021 to July 2023.
+
+== Competitions & Rewards
+I am very interested in AI algorithm competitions and have many years of competition experience.
+
+. BME 2019: National Biomedical Engineering Competition, 🏆 First Prize.
+. C4 2020: China Collegiate Computing Contes 2020 - Huawei Cloud Big Data Challenge 4/1491 \[[https://competition.huaweicloud.com/information/1000037843/introduction?zhishi= link]\], 🏆 First Prize \[[img/huawei.png certificate]\].
+. C4 2021： China Collegiate Computing Contes 2021 -  WeChat Big Data Challenge \[[https://dldir1.qq.com/weixin/wealgo/BDC2021_%E7%AB%9E%E8%B5%9B%E8%A7%84%E7%A8%8B%EF%BC%8820210714%E6%9B%B4%E6%96%B0%EF%BC%89.pdf link]\], 🥈 Second Prize.
+. 2021 3rd Shandong Provincial Data Application Innovation and Entrepreneurship Competition ECG Intelligence, 🏆 1st place.
+. Kaggle 2021 Google Brain - Ventilator Pressure Prediction \[[https://www.kaggle.com/competitions/ventilator-pressure-prediction link]\], 🥈 Silver Medal.
+. Kaggle 2023 AMP®-Parkinson's Disease Progression Prediction \[[https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction link]\], 🥈 Silver Medal.
+. Kaggle 2023 Parkinson's Freezing of Gait Prediction \[[https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction link]\], 🏅 Gold Medal.
+. iFLYTEK AI development competition 2023: Brain PET Image Analysis and Disease Prediction Challenge \[[https://challenge.xfyun.cn/topic/info?type=pet-2023 link]\], 🏆 1st place.
+. iFLYTEK AI development competition 2023: Farmer Identity Recognition Challenge \[[https://challenge.xfyun.cn/topic/info?type=peasant-identity&option=ssgy link]\], 🏆 1st place.
+. AFAC 2023 Tianchi Financial AI Challenge - Pet Age Recognition \[[https://tianchi.aliyun.com/competition/entrance/532092/rankingList link]\], 🥉 5rd place.
+. Mobile Cloud Cup 2023 Computing and Network Computing Power Competition - Industry Track \[[https://ecloud.10086.cn/api/query/developer/user/home.html#match@matchnew?id=6b87490c869b4743930c792def9ff49e link]\], 🏆 1st place.
+. DiMTAIC 2023 Digital Medical Technology: Colorectal Tumor and Abnormal Lymph Segmentation Algorithm \[[https://www.shdmic.com/dimtaic2023/index.html link]\], 🥉 3rd place.
+. 2024 9th Tencent Game Security Technology Competition - Machine Learning Track \[[https://gslab.qq.com/html/competition/2024/race-final-result.htm link]\], 🥈2nd place.
+. AI4S Cup 2024 -  Wave Speed Reconstruction in Ultrasound CT Imaging \[[https://www.bohrium.com/competitions/2522351329?tab=introduce link]\], 🥉 5rd place.
+. DC 2025 Electromagnetic Big Data Extraordinary Challenge \[[https://challenge.datacastle.cn/v3/cmptDetail.html?id=988 link]\],🥉 6rd place.
+. DCIC 2025 Digital China - AI-based Minjiang River Basin Hydrological Forecasting \[[https://www.dcic-china.com/competitions/10173 link]\], 🏆 1st place.
+. CIKM2025: The 10th Finup Global AI Algorithm Competition: Visual Deepfake Detection \[[https://ai.ppdai.com/mirror/goToMirrorDetailSix?mirrorId=36&tabindex=2 link]\], 🏆 1st place.
+
+
+== Published Journals 
+
+Note: * for corresponding author, # for equal contribution.
+
+. *Addressing Multiple Challenges in Early Gait Freezing Prediction for Parkinson's Disease: A Practical Deep Learning Approach* \n
+    *W Wang*, J Lin, X Le, Y Li, T Liu, L Pan, M Li, D Yao, P Ren\* \n
+    IEEE Journal of Biomedical and Health Informatics (*JBHI 2024*, Q2 IF:6.8).\n
+    \[[https://ieeexplore.ieee.org/abstract/document/10816191 link]\]
+. *Analysis of the relation between balance control subsystems: a structural equation modeling approach* \n
+    K Wu, J Zhang, AWA Mohsen, Z Wang, Y Jin, *W Wang*, X Peng, D Yao\* \n
+    IEEE transactions on neural systems and rehabilitation engineering (*TNSRE 2024*, Q2 IF:5.2).
+. *Automated prediction of infant cognitive development risk by video: A pilot study* \n
+    S Ji, D Ma, L Pan, *W Wang*, X Peng, JT Amos \n
+    IEEE Journal of Biomedical and Health Informatics (*JBHI 2023*, Q2 IF：6.8).
+. *Gait analysis by causal decomposition* \n
+    X Peng, Y Feng, S Ji, JT Amos, *W Wang*, M Li, S Ai, X Qiu, Y Dong, D Ma \n
+    IEEE Transactions on Neural Systems and Rehabilitation Engineering (*TNSRE 2021*, Q2 IF:5.2)
+
+
+
+
+== Projects
+
+
+== Scholarship & Honors
+. Academic Scholarship First Class: 2019-2020 & 2020-2021 at University of Electronic Science and Technology of China (Top 3%).
+. Academic Scholarship Second Class: 2023-2024 at University of Electronic Science and Technology of China (Top 30%).
+
+== Useful Links
+Deadlines: [https://ccfddl.github.io/ ccf-ddl] \n
+CCF list: [https://ccf.atom.im/ ccf.atom.im]
