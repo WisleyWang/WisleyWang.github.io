@@ -24,6 +24,7 @@ My research interests include:
 - Computer Vision
 - Large Language Models
 
+
 ==  Educations
 
 ~~~
@@ -40,9 +41,17 @@ M.S. in Biomedical Engineering, from August 2018 to June 2021.
 CSC Outstanding Engineers Program (Joint PhD), from May 2025 to May 2026.
 ~~~
 
+== Projects
+~~~
+{}{img_left}{img/gometa.png}{alt text}{124}{124}{https://github.com/gomate-community/TrustRAG}
+- ⭐: 1k+, Fork: 120 
+- As a core contributor [https://github.com/gomate-community/TrustRAG TrustRAG]. 
+- It is a configurable and modular Retrieval-Augmented Generation (RAG) framework. 
+~~~
+
 ==  Experiences
 
-- \[2024-2025\] Visiting students from Nanyang Institute of Technology, from December 2025 to December 2026.
+- \[2025-2026\] Visiting students from Nanyang Institute of Technology, from December 2025 to December 2026.
 - \[2023-2024\] Research Intern at Shanghai Digital Innovation Center, from December 2023 to December 2024.
 - \[2021-2023\] Intelligent Algorithm Engineer at @Hua, from August 2021 to July 2023.
 
@@ -89,20 +98,12 @@ Note: * for corresponding author, # for equal contribution.
 == Patent
 Patents published as the first inventor during the period of serving as an algorithm engineer. \[[https://pss-system.cponline.cnipa.gov.cn/conventionalSearch Patent search link]\]
 
-. *Multi-Task Learning for Face Recognition Based on Graph Neural Network* \n
-    Application Number:​​ CN202111576477.0 \n
-    Publication Number:​​ CN114360007A
-. *A Self-Supervised Learning-Based Training Method for Face Recognition Models* \n
-    Application Number:​​ CN202111646238.8 \n
-    Publication Number:​​ CN114358249A
-. *Dynamic Margin Binary Classification Network Training Method for Face Recognition* \n
-    Application Number:​​ CN202210843918.7 \n
-    Publication Number:​​ CN115439707A
-. *A Method for Generating Face Adversarial Patches Based on Conditional Diffusion Model* \n
-    Application Number:​​ CN202211742754.5 \n
-    Publication Number:​​ CN116109534A
+. *Multi-Task Learning for Face Recognition Based on Graph Neural Network*, First author, Publication Number:​​ CN114360007A \n
+. *A Self-Supervised Learning-Based Training Method for Face Recognition Models*, First author, Publication Number:​​ CN114358249A\n
+. *Dynamic Margin Binary Classification Network Training Method for Face Recognition*, First author, Publication Number:​​ CN115439707A\n
+. *A Method for Generating Face Adversarial Patches Based on Conditional Diffusion Model*, First author, Publication Number:​​ CN116109534A\n
+   
 
-== Projects
 
 
 == Scholarship & Honors
