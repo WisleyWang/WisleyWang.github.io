@@ -20,9 +20,9 @@ WeChat: wisley93953316 \n
 I am currently a Ph.D student at [https://www.uestc.edu.cn/ UESTC] and my supervisor is [https://ieeexplore.ieee.org/author/37281040000 Prof. Yifan Chen]. I received the master's degree from UESTC in 2021. After graduating with a master's degree, I worked as an intelligent algorithm engineer in a company for two years. After that, I continued to pursue a doctoral degree in 2023.
 
 My research interests include: 
-- Artificial Intelligence for Science: Electromagnetic inverse problem, wearable sensing, brain-computer interface（BCI）etc.
 - Computer Vision
 - Large Language Models
+- Artificial Intelligence for Science: Electromagnetic inverse problem, wearable sensing, brain-computer interface（BCI）etc.
 
 
 ==  Educations
@@ -43,36 +43,40 @@ CSC Outstanding Engineers Program (Joint PhD), from May 2025 to May 2026.
 
 ==  Experiences
 
-- \[2025-2026\] Visiting students from Nanyang Institute of Technology, from December 2025 to December 2026.
+- \[2025-2026\] Join-students from Nanyang Institute of Technology, from December 2025 to December 2026.
 - \[2023-2024\] Research Intern at Shanghai Digital Innovation Center, from December 2023 to December 2024.
 - \[2021-2023\] Intelligent Algorithm Engineer at @Hua, from August 2021 to July 2023.
 
 == Competitions & Rewards
 I am very interested in AI algorithm competitions and have many years of competition experience.
 
-. BME 2019: National Biomedical Engineering Competition, 🏆 First Prize.
-. C4 2020: China Collegiate Computing Contes 2020 - Huawei Cloud Big Data Challenge 4/1491 \[[https://competition.huaweicloud.com/information/1000037843/introduction?zhishi= link]\], 🏆 First Prize \[[img/huawei.png certificate]\].
-. C4 2021： China Collegiate Computing Contes 2021 -  WeChat Big Data Challenge \[[https://dldir1.qq.com/weixin/wealgo/BDC2021_%E7%AB%9E%E8%B5%9B%E8%A7%84%E7%A8%8B%EF%BC%8820210714%E6%9B%B4%E6%96%B0%EF%BC%89.pdf link]\], 🥈 Second Prize.
-. 2021 3rd Shandong Provincial Data Application Innovation and Entrepreneurship Competition ECG Intelligence, 🏆 1st place.
-. Kaggle 2021 Google Brain - Ventilator Pressure Prediction \[[https://www.kaggle.com/competitions/ventilator-pressure-prediction link]\], 🥈 Silver Medal.
-. Kaggle 2023 AMP®-Parkinson's Disease Progression Prediction \[[https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction link]\], 🥈 Silver Medal.
-. Kaggle 2023 Parkinson's Freezing of Gait Prediction \[[https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction link]\], 🏅 Gold Medal.
-. iFLYTEK AI development competition 2023: Brain PET Image Analysis and Disease Prediction Challenge \[[https://challenge.xfyun.cn/topic/info?type=pet-2023 link]\], 🏆 1st place.
-. iFLYTEK AI development competition 2023: Farmer Identity Recognition Challenge \[[https://challenge.xfyun.cn/topic/info?type=peasant-identity&option=ssgy link]\], 🏆 1st place.
-. AFAC 2023 Tianchi Financial AI Challenge - Pet Age Recognition \[[https://tianchi.aliyun.com/competition/entrance/532092/rankingList link]\], 🥉 5rd place.
-. Mobile Cloud Cup 2023 Computing and Network Computing Power Competition - Industry Track \[[https://ecloud.10086.cn/api/query/developer/user/home.html link]\], 🏆 1st place.
-. DiMTAIC 2023 Digital Medical Technology: Colorectal Tumor and Abnormal Lymph Segmentation Algorithm \[[https://www.shdmic.com/dimtaic2023/index.html link]\], 🥉 3rd place.
+. Kaggle 2026 NFL Big Data Bowl 2026 - Prediction \[[https://www.kaggle.com/competitions/nfl-big-data-bowl-2026-prediction/leaderboard]\] \[[img/NFL.png certificate]\]🏅 Gold Medal.
+. CIKM2025: The 10th Finup Global AI Algorithm Competition: Visual Deepfake Detection \[[https://ai.ppdai.com/mirror/goToMirrorDetailSix?mirrorId=36&tabindex=2 link]\] \[[https://github.com/WisleyWang/2025xinye code]\], 🏆 1st place.
+. DCIC 2025 Digital China - AI-based Minjiang River Basin Hydrological Forecasting \[[https://www.dcic-china.com/competitions/10173 link]\], 🏆 1st place.
+. DC 2025 Electromagnetic Big Data Extraordinary Challenge \[[https://challenge.datacastle.cn/v3/cmptDetail.html?id=988 link]\],🥉 6rd place.
 . 2024 9th Tencent Game Security Technology Competition - Machine Learning Track \[[https://gslab.qq.com/html/competition/2024/race-final-result.htm link]\], 🥈2nd place.
 . AI4S Cup 2024 -  Wave Speed Reconstruction in Ultrasound CT Imaging \[[https://www.bohrium.com/competitions/2522351329?tab=introduce link]\], 🥉 5rd place.
-. DC 2025 Electromagnetic Big Data Extraordinary Challenge \[[https://challenge.datacastle.cn/v3/cmptDetail.html?id=988 link]\],🥉 6rd place.
-. DCIC 2025 Digital China - AI-based Minjiang River Basin Hydrological Forecasting \[[https://www.dcic-china.com/competitions/10173 link]\], 🏆 1st place.
-. CIKM2025: The 10th Finup Global AI Algorithm Competition: Visual Deepfake Detection \[[https://ai.ppdai.com/mirror/goToMirrorDetailSix?mirrorId=36&tabindex=2 link]\] \[[https://github.com/WisleyWang/2025xinye code]\], 🏆 1st place.
-
+. DiMTAIC 2023 Digital Medical Technology: Colorectal Tumor and Abnormal Lymph Segmentation Algorithm \[[https://www.shdmic.com/dimtaic2023/index.html link]\], 🥉 3rd place.
+. Mobile Cloud Cup 2023 Computing and Network Computing Power Competition - Industry Track \[[https://ecloud.10086.cn/api/query/developer/user/home.html link]\], 🏆 1st place.
+. iFLYTEK AI development competition 2023: Brain PET Image Analysis and Disease Prediction Challenge \[[https://challenge.xfyun.cn/topic/info?type=pet-2023 link]\], 🏆 1st place.
+. iFLYTEK AI development competition 2023: Farmer Identity Recognition Challenge \[[https://challenge.xfyun.cn/topic/info?type=peasant-identity&option=ssgy link]\], 🏆 1st place.
+. Kaggle 2023 Parkinson's Freezing of Gait Prediction \[[https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction link]\], 🏅 Gold Medal.
+. Kaggle 2023 AMP®-Parkinson's Disease Progression Prediction \[[https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction link]\], 🥈 Silver Medal.
+. AFAC 2023 Tianchi Financial AI Challenge - Pet Age Recognition \[[https://tianchi.aliyun.com/competition/entrance/532092/rankingList link]\], 🥉 5rd place.
+. Kaggle 2021 Google Brain - Ventilator Pressure Prediction \[[https://www.kaggle.com/competitions/ventilator-pressure-prediction link]\], 🥈 Silver Medal.
+. 2021 3rd Shandong Provincial Data Application Innovation and Entrepreneurship Competition ECG Intelligence, 🏆 1st place.
+. C4 2021： China Collegiate Computing Contes 2021 -  WeChat Big Data Challenge \[[https://dldir1.qq.com/weixin/wealgo/BDC2021_%E7%AB%9E%E8%B5%9B%E8%A7%84%E7%A8%8B%EF%BC%8820210714%E6%9B%B4%E6%96%B0%EF%BC%89.pdf link]\], 🥈 Second Prize.
+. C4 2020: China Collegiate Computing Contes 2020 - Huawei Cloud Big Data Challenge 4/1491 \[[https://competition.huaweicloud.com/information/1000037843/introduction?zhishi= link]\], 🏆 First Prize \[[img/huawei.png certificate]\].
+. BME 2019: National Biomedical Engineering Competition, 🏆 First Prize.
 
 == Published Journals 
 
 Note: * for corresponding author, # for equal contribution.
 
+. *Robust Federated Video-based Remote Physiological Measurement for Heterogeneous Multi-source Data.* \n
+   *W Wang., Xu, Q., Xu, X., Li, S., Huang, F., Zheng \n
+   IEEE Journal of Biomedical and Health Informatics. (*JBHI 2024*, Q1 IF:6.8).\n
+   \[[https://ieeexplore.ieee.org/abstract/document/11299383 link]\]
 . *Addressing Multiple Challenges in Early Gait Freezing Prediction for Parkinson's Disease: A Practical Deep Learning Approach* \n
     *W Wang*, J Lin, X Le, Y Li, T Liu, L Pan, M Li, D Yao, P Ren\* \n
     IEEE Journal of Biomedical and Health Informatics (*JBHI 2024*, Q1 IF:6.8).\n
@@ -98,7 +102,7 @@ Patents published as the first inventor during the period of serving as an algor
 == Projects
 ~~~
 {}{img_left}{img/gometa.png}{alt text}{100}{100}{https://github.com/gomate-community/TrustRAG}
- [https://github.com/gomate-community/TrustRAG TrustRAG]   ⭐:*1k+*, fork: 120 \n
+ [https://github.com/gomate-community/TrustRAG TrustRAG]   ⭐:*1.2k+*, fork: 120 \n
 It is a configurable and modular Retrieval-Augmented Generation (RAG) framework. \n As a core contributor, if you have any questions regarding this framework, please feel free to discuss them with me.
 ~~~
 
