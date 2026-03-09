@@ -170,7 +170,9 @@ def standardconf():
   [bodystart]
   </head>
   <body>
-  
+  <script src="[https://polyfill.io/v3/polyfill.min.js?features=es6](https://polyfill.io/v3/polyfill.min.js?features=es6)"></script>
+  <script id="MathJax-script" async src="[https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js](https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js)"></script>
+
   [analytics]
   <script type="text/javascript">
   var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -395,7 +397,21 @@ def hb(f, tag, content1, content2=None):
 def pc(f, ditchcomments=True):
     """Peeks at next character in the file."""
     # Should only be used to look at the first character of a new line.
-    c = f.inf.read(1).decode(encoding='utf-8')
+    
+    # --- 修改开始：支持读取多字节的中文 UTF-8 字符 ---
+    b = f.inf.read(1)
+    if b:
+        while True:
+            try:
+                c = b.decode(encoding='utf-8')
+                break
+            except UnicodeDecodeError:
+                # 如果解码失败（例如中文的第1个字节），就再读1个字节，直到成功
+                b += f.inf.read(1)
+    else:
+        c = ''
+    # --- 修改结束 ---
+
     if c:  # only undo forward movement if we're not at the end.
         if ditchcomments and c == '#':
             l = nl(f)
@@ -408,13 +424,13 @@ def pc(f, ditchcomments=True):
         if c == '\\':
             c += pc(f)
 
-        f.inf.seek(-1, 1)
+        # 这里原本是 -1，现在改为根据刚才实际读入的字节数回退
+        f.inf.seek(-len(b), 1)
     elif f.otherfiles:
         f.nextfile()
         return pc(f, ditchcomments)
 
     return c
-
 
 def doincludes(f, l):
     ir = 'includeraw{'
@@ -526,9 +542,8 @@ def replacepercents(b):
 
     return b
 
-
 def replaceequations(b, f):
-    # replace $sections$ and \(sections\) as equations.
+    # 使用 MathJax 原生支持替换原来繁琐的图片生成逻辑
     rs = ((re.compile(r'(?<!\\)\$(.*?)(?<!\\)\$', re.M + re.S), False),
           (re.compile(r'(?<!\\)\\\((.*?)(?<!\\)\\\)', re.M + re.S), True))
     for (r, wl) in rs:
@@ -536,62 +551,80 @@ def replaceequations(b, f):
         while m:
             eq = m.group(1)
             if wl:
-                fn = str(abs(hash(eq + 'wl120930alsdk')))
+                # 块级公式 (Display math)
+                b = b[:m.start()] + '{{\\[' + eq + '\\]}}' + b[m.end():]
             else:
-                fn = str(abs(hash(eq)))
-
-            # Find out the baseline when we first encounter an equation (don't
-            # bother, otherwise).
-            # Other initialization stuff which we do only once we know we have
-            # equations.
-            if f.baseline is None:
-                # See if the eqdir exists, and if not, create it.
-                if not os.path.isdir(f.eqdir):
-                    os.mkdir(f.eqdir)
-
-                # Check that the tools we need exist.
-                (supported, message) = testeqsupport()
-                if not supported:
-                    print('WARNING: equation support disabled.')
-                    print(message)
-                    f.eqsupport = False
-                    return b
-
-                # Calculate the baseline.
-                eqt = "0123456789xxxXXxX"
-                (f.baseline, blfn) = geneq(f, eqt, dpi=f.eqdpi, wl=False,
-                                           outname='baseline-' + str(f.eqdpi))
-                if os.path.exists(blfn):
-                    os.remove(blfn)
-
-            fn = fn + '-' + str(f.eqdpi)
-            (depth, fullfn) = geneq(f, eq, dpi=f.eqdpi, wl=wl, outname=fn)
-            fullfn = fullfn.replace('\\', '/')
-
-            offset = depth - f.baseline + 1
-
-            eqtext = allreplace(eq)
-            eqtext = eqtext.replace('\\', '')
-            eqtext = eqtext.replace('\n', ' ')
-            eqtext = eqtext.replace('\r', ' ')
-
-            # Double braces will cause problems with escaping of image tag.
-            eqtext = eqtext.replace('{{', 'DOUBLEOPENBRACE')
-            eqtext = eqtext.replace('}}', 'DOUBLECLOSEBRACE')
-
-            if wl:
-                b = b[:m.start()] + \
-                    '{{\n<div class="eqwl"><img class="eqwl" src="%s" alt="%s" />\n<br /></div>}}' % (
-                        fullfn, eqtext) + b[m.end():]
-            else:
-                b = b[:m.start()] + \
-                    '{{<img class="eq" src="%s" alt="%s" style="vertical-align: -%dpx" />}}' % (
-                        fullfn, eqtext, offset) + b[m.end():]
-
-            # jem: also clean out line breaks in the alttext?
+                # 行内公式 (Inline math)
+                b = b[:m.start()] + '{{\\(' + eq + '\\)}}' + b[m.end():]
             m = r.search(b, m.start())
 
     return replacequoted(b)
+
+# def replaceequations(b, f):
+#     # replace $sections$ and \(sections\) as equations.
+#     rs = ((re.compile(r'(?<!\\)\$(.*?)(?<!\\)\$', re.M + re.S), False),
+#           (re.compile(r'(?<!\\)\\\((.*?)(?<!\\)\\\)', re.M + re.S), True))
+#     for (r, wl) in rs:
+#         m = r.search(b)
+#         while m:
+#             eq = m.group(1)
+#             if wl:
+#                 fn = str(abs(hash(eq + 'wl120930alsdk')))
+#             else:
+#                 fn = str(abs(hash(eq)))
+
+#             # Find out the baseline when we first encounter an equation (don't
+#             # bother, otherwise).
+#             # Other initialization stuff which we do only once we know we have
+#             # equations.
+#             if f.baseline is None:
+#                 # See if the eqdir exists, and if not, create it.
+#                 if not os.path.isdir(f.eqdir):
+#                     os.mkdir(f.eqdir)
+
+#                 # Check that the tools we need exist.
+#                 (supported, message) = testeqsupport()
+#                 if not supported:
+#                     print('WARNING: equation support disabled.')
+#                     print(message)
+#                     f.eqsupport = False
+#                     return b
+
+#                 # Calculate the baseline.
+#                 eqt = "0123456789xxxXXxX"
+#                 (f.baseline, blfn) = geneq(f, eqt, dpi=f.eqdpi, wl=False,
+#                                            outname='baseline-' + str(f.eqdpi))
+#                 if os.path.exists(blfn):
+#                     os.remove(blfn)
+
+#             fn = fn + '-' + str(f.eqdpi)
+#             (depth, fullfn) = geneq(f, eq, dpi=f.eqdpi, wl=wl, outname=fn)
+#             fullfn = fullfn.replace('\\', '/')
+
+#             offset = depth - f.baseline + 1
+
+#             eqtext = allreplace(eq)
+#             eqtext = eqtext.replace('\\', '')
+#             eqtext = eqtext.replace('\n', ' ')
+#             eqtext = eqtext.replace('\r', ' ')
+
+#             # Double braces will cause problems with escaping of image tag.
+#             eqtext = eqtext.replace('{{', 'DOUBLEOPENBRACE')
+#             eqtext = eqtext.replace('}}', 'DOUBLECLOSEBRACE')
+
+#             if wl:
+#                 b = b[:m.start()] + \
+#                     '{{\n<div class="eqwl"><img class="eqwl" src="%s" alt="%s" />\n<br /></div>}}' % (
+#                         fullfn, eqtext) + b[m.end():]
+#             else:
+#                 b = b[:m.start()] + \
+#                     '{{<img class="eq" src="%s" alt="%s" style="vertical-align: -%dpx" />}}' % (
+#                         fullfn, eqtext, offset) + b[m.end():]
+
+#             # jem: also clean out line breaks in the alttext?
+#             m = r.search(b, m.start())
+
+#     return replacequoted(b)
 
 
 def replaceimages(b):
